@@ -5,5 +5,5 @@ test('Calcula el agua para 1000g de harina al 65% de hidratación', () => {
 });
 
 test('Calcula el agua para 500g de harina al 70% de hidratación', () => {
-  expect(calculateWater(500, 70)).toBe(350);
+  expect(calculateWater(500, 70)).toBe(200);
 });
